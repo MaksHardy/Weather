@@ -69,6 +69,17 @@ div .weather {
     min-width: 200px;
 }
 
+.text {
+    margin: auto;
+}
+
+h2 {
+    font-size: 15px;
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+
 #Lisbon {
     background-color: #3399cc;
 }
@@ -146,7 +157,8 @@ div .weather {
 }
 
 #San_Francisco:hover ~ li {
-    opacity: 0.8}
+    opacity: 0.8
+}
 
 #Paris:hover ~ li {
     opacity: 0.8;

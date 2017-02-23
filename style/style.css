@@ -1,0 +1,157 @@
+* {
+    transition: all .1s ease-in;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-size: 0;
+}
+
+body {
+    background-color: #3399cc;
+}
+
+ul {
+    display: inline-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border: 2px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.city_1 {
+    width: 50%;
+    margin: 0;
+}
+
+.city_2 {
+    width: 25%;
+    margin: 0;
+}
+
+.city_3 {
+    width: 100%;
+    margin: 0;
+}
+
+i {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: inline-box;
+}
+
+div .container {
+    border: 20px solid #ffffff;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+div .weather {
+    border: 1px solid #ffffff;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    -webkit-align-content: center;
+    align-content: center;
+    vertical-align: middle;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+#Lisbon {
+    background-color: #3399cc;
+}
+
+#Paris {
+    background: #33cccc;
+}
+
+#Belgrad {
+    background-color: #996699;
+}
+
+#Moscow {
+    background-color: #c24747;
+}
+
+#Tel_Aviv {
+    background-color: #e2674a;
+}
+
+#Cair {
+    background-color: #ffcc66;
+}
+
+#New_York {
+    background-color: #99cc99;
+}
+
+#New_Delhi {
+    background-color: #669999;
+}
+
+#San_Francisco {
+    background: #C69;
+}
+
+#Tokyo {
+    background: #396;
+}
+
+#Sydney {
+    background: #666699;
+}
+
+#Lisbon:hover ~ li {
+    opacity: 0.8;
+}
+
+#Paris:hover ~ li {
+    opacity: 0.8;
+}
+
+#Belgrad:hover ~ li {
+    opacity: 0.8;
+}
+
+#Moscow:hover ~ li {
+    opacity: 0.8;
+}
+
+#Tel_Aviv:hover ~ li {
+    opacity: 0.8;
+}
+
+#Cair:hover ~ li {
+    opacity: 0.8;
+}
+
+#New_York:hover ~ li {
+    opacity: 0.8;
+}
+
+#New_Delhi:hover ~ li {
+    opacity: 0.8;
+}
+
+#San_Francisco:hover ~ li {
+    opacity: 0.8}
+
+#Paris:hover ~ li {
+    opacity: 0.8;
+}
+
+#Sydney:hover ~ li {
+    opacity: 0.8;
+}

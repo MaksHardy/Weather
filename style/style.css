@@ -58,7 +58,6 @@ div .container {
 }
 
 div .weather {
-    border: 1px solid #ffffff;
     width: 50%;
     margin: auto;
     padding: auto;
@@ -67,10 +66,16 @@ div .weather {
     vertical-align: middle;
     max-width: 600px;
     min-width: 200px;
+    padding-bottom: 20px;
 }
 
-.text {
+div .text {
     margin: auto;
+    width: 50%;
+    max-width: 600px;
+    min-width: 200px;
+    -webkit-align-content: center;
+            align-content: center;
 }
 
 h2 {
